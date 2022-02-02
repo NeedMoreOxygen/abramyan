@@ -1,0 +1,10 @@
+const a = 10;
+const b = 6;
+const c = Math.abs(a+b);
+const d = Math.abs(a-b);
+const v = Math.abs(a*b);
+const f = Math.abs(a/b);
+console.log (c);
+console.log (d);
+console.log (v);
+console.log (f);
