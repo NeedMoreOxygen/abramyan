@@ -1,0 +1,10 @@
+const X = parseInt(prompt())  ;
+const A = parseInt(prompt()) ;
+const Y = parseInt(prompt());
+const B = parseInt(prompt());
+const v = (A/X);
+const D = (B/Y);
+let R = v/D;
+console.log("Цена за 1 кг шоколадок = " + v);
+console.log("Цена за 1 кг ирисок = " + D);
+console.log("Шоколад дороже ириски в " + R);
