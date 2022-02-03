@@ -1,0 +1,14 @@
+const x1 = prompt() ;
+const y1 = prompt() ;
+const x2 = prompt() ;
+const y2 = prompt() ;
+const x3 = prompt() ;
+const y3 = prompt() ;
+const A = Math.sqrt(((x2-x1)**2)+ ((y2-y1)**2)) ;
+const B = Math.sqrt(((x3-x2)**2)+ ((y3-y2)**2))  ;
+const C =  Math.sqrt(((x3-x2)**2)+ ((y3-y2)**2)) ;
+const Ptr = A+B+C ;
+const p = Ptr/2 ;
+const S =  Math.sqrt(p*(p-A)*(p-B)*(p-C)) ;
+console.log(Ptr);
+console.log(S);
