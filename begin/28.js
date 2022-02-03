@@ -1,5 +1,11 @@
 const A = parseInt(prompt()) ;
 const A2 = (A*A) ;
+const A3 = (A2*A) ;
+const A5 = (A3*A2);
+const A10 = (A5*A5);
+const A15 = (A10*A5);
 console.log(A2);
-A=(A2*A);
-console.log(A);
+console.log(A3);
+console.log(A5);
+console.log(A10);
+console.log(A15);
