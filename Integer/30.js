@@ -1,5 +1,5 @@
 const A = parseInt(prompt("Какой год!"));
 
-let a = (A / 101);
+let a = Math.floor((A-1)/100);
 
 console.log(a+1);
