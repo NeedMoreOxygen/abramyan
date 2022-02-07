@@ -1,5 +1,4 @@
-const A = parseInt(prompt("Какой год!"));
-
-let a = Math.floor((A-1)/100);
+let a = parseInt(prompt("Какой год!"));
+a = Math.floor((a-1)/100);
 
 console.log(a+1);
