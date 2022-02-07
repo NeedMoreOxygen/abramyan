@@ -1,5 +1,6 @@
 const A = parseInt(prompt());
 const B = parseInt(prompt());
+const C = parseInt(prompt());
 
-const V = ((A%2)>0 && (B%2)>0) || ((A%2)<=0 && (B%2)<=0) ;
+const V = (A>-1 || B>-1 || C>-1);
 console.log(V);
