@@ -1,6 +1,6 @@
 let a = parseInt(prompt());
 
-if(a>-1){
+if(a>=1){
 a = a + 1;
 console.log(a);}
 else if(a===0){
