@@ -1,4 +1,5 @@
-let a = parseInt(prompt("Какой год!"));
-a = Math.floor((a-1)/100);
+let x = parseInt(/*prompt("Какой год!")*/);
 
-console.log(a+1);
+y = Math.floor((x-1)/100);
+
+console.log(y+1);
