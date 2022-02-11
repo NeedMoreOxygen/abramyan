@@ -1,4 +1,4 @@
-const g = parseInt(prompt());
+let g = parseInt(prompt());
 
 if (g === 0) {
     console.log('Нулевое число.');
@@ -8,17 +8,17 @@ if (g === 0) {
     if (g > 0) {
         console.log('Положительное и ');
     } else {
+        g = Math.abs(g)
         console.log('Отрицательное и ');
     }
-    let a = g * -1;
-    if (a < 10) {
+    if (g < 10) {
         console.log('Однозначное');
-    } else if (a < 100) {
+    } else if (g < 100) {
         console.log('Дузначное');
     } else {
         console.log('Трехзначное');
     }
-    if (a % 2 === 0) {
+    if (g % 2 === 0) {
         console.log('Четное');
     } else {
         console.log('Нечетное');
