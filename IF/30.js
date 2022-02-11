@@ -7,14 +7,13 @@ if (g === 0) {
 } else {
     if (g > 0) {
         console.log('Положительное и ');
-    } else if (g < 0) {
+    } else {
         console.log('Отрицательное и ');
     }
     let a = g * -1;
     if (a < 10) {
         console.log('Однозначное');
-    }
-    if (a < 100) {
+    } else if (a < 100) {
         console.log('Дузначное');
     } else {
         console.log('Трехзначное');
