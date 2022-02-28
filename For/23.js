@@ -1,15 +1,18 @@
+let D = parseInt(prompt());
 const A = parseInt(prompt());
 
 let B = 1;
-let C = 0;
-for (let i = 1; i <= A; ++i) {
+let C = D;
+for (let i = 1; i <= A; i += 2) {
 
     for (let c = 1; c <= i; ++c) {
 
         B = B * c;
 
     }
-    C = C + B;
+    D = D * (-1);
+    C = C + (Math.pow(D, i) / B);
     B = 1;
 }
+
 console.log(C);
