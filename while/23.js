@@ -2,6 +2,26 @@ let A = parseInt(prompt());
 let B = parseInt(prompt());
 
 let C = 0;
+if (A == 0) {
+    console.log(B);
+}
+else if (B == 0) {
+    console.log(A);
+}
+else{
+while(A )
+
+}
+
+
+
+
+
+
+
+
+
+/*
 if (A > B) {
     C = B;
     while (1<C) {
@@ -33,4 +53,4 @@ else {
     }
 }
 
-console.log(C);
+console.log(C);*/
