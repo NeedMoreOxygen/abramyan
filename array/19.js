@@ -13,7 +13,7 @@ l = a.indexOf(0);
 var e = a.splice(l, 1);
 
 
-
+console.table(a);
 
 
 
