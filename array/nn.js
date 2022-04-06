@@ -117,18 +117,11 @@ console.log(B);
 }
 ////boolean 21
 {const A = parseInt(prompt());
-
 const a = parseInt(A % 10);
-
 let b = parseInt((A - a) % 100);
-
 const c = parseInt((A - (a+b))/100);
-
 b = b/10;
-
 const V = (c<b && b<a);
-
-
 console.log(V);}
      
 
@@ -214,18 +207,14 @@ else{
 }
 ////if 26
 {const x = parseInt(prompt());
-
 if(x<=0){
     console.log(-x);
-
 }
 else if (0<x && x<2) {
     console.log(x*x);
-
 }
-else if (X>=2) {
+else if (x>=2) {
     console.log(4);
-
 }
 }
 
