@@ -1,4 +1,4 @@
-# JavaScript Algorithmic Exercises 📜💻
+# JavaScript Algorithmic Exercises
 
 This repository contains my solutions to various algorithmic exercises, focusing on the fundamentals of the **JavaScript programming language**. Each exercise explores core concepts, from basic data types to control structures and arrays, providing a strong foundation for programming logic.
 
